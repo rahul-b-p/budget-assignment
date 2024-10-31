@@ -1,0 +1,36 @@
+<div class="row main w-100">
+        <div class="image-section w-sm-100 col-md-6">
+            <h2 class="fw-bolder">Budget</h2>
+            <img src="assets/login.png" alt="not loaded">
+        </div>
+        <div class="w-sm-100 col-md-6">
+            <div class="d-flex">
+                <p class="ms-auto me-2 mt-3">Having Trouble? <b>Get Help</b></p>
+                <button type="button" class="lang-button">
+                    ENG
+                    <img width="25px" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg">
+                    <i class="fa-solid fa-angle-down ms-2"></i>
+                </button>
+            </div>
+            <div class="form-section d-flex justify-content-center align-items-center">
+                <div class="w-75">
+                    <h2>Login to Budget</h2>
+                    <h6 class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+                    <form action="#" method="POST">
+                        <input type="email" id="email" name="email" placeholder="email" required>
+                        <input type="password" id="password" name="password" placeholder="Password" required>
+                        
+                        <div class="form-options mt-2">
+                            <label>
+                                <input type="checkbox" name="keep-logged-in"> Keep me logged in
+                            </label>
+                            <a [routerLink]="'/'">Forgot password?</a>
+                        </div>
+                        
+                        <button class="form-button" type="submit">Login</button>
+                        <p><a [routerLink]="'/'">Create New Account?</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
